@@ -14,7 +14,7 @@ RUN set -x && \
 
 FROM python:3.11-slim-bullseye
 
-ARG QL_MAINTAINER="whyour"
+ARG QL_MAINTAINER="stock169"
 LABEL maintainer="${QL_MAINTAINER}"
 ARG QL_URL=https://github.com/${QL_MAINTAINER}/qinglong.git
 ARG QL_BRANCH=develop
