@@ -194,7 +194,7 @@ jobs:
           context: .
           file: ./docker/310.Dockerfile
           push: true
-          tags: whyour/qinglong:debian-python3.10
+          tags: stock169/qinglong:debian-python3.10
           cache-from: type=registry,ref=stock169/qinglong:cache-debian-python3.10
           cache-to: type=registry,ref=stock169/qinglong:cache-debian-python3.10,mode=max
 
