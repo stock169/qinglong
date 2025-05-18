@@ -130,8 +130,8 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          cache-from: type=registry,ref=whyour/qinglong:cache-debian
-          cache-to: type=registry,ref=whyour/qinglong:cache-debian,mode=max
+          cache-from: type=registry,ref=stock169/qinglong:cache-debian
+          cache-to: type=registry,ref=stock169/qinglong:cache-debian,mode=max
 
       - name: Image digest
         run: |
